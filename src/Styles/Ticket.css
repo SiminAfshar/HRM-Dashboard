@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.ticket-header-container p{
+    padding: 1rem;
+    border: 1px solid lightgray;
+    border-radius: 15px 15px 15px 0;
+    border-bottom: 0;
+    margin-bottom: 0;
+
+}
+.ticket-body{
+    padding: 3rem 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+}
+label{
+    margin-left: 1rem;
+}
+.ticket-part-one input{
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+    border: 1px solid lightgrey;
+    background: none;
+    color: white;
+    width: 90%;
+}
+.ticket-part-one input:focus{
+    outline: 0;
+    border: 1px solid #ff5555;
+}
+.ticket-part-three textarea{
+    border-radius: 20px;
+    border: 1px solid lightgrey;
+    background: none;
+    color: white;
+    padding: 0.5rem 2rem;
+    word-wrap: break-word;
+    word-break: break-all;
+    
+}
+.ticket-part-three textarea:focus{
+    outline: 0;
+    border: 1px solid #ff5555;
+}
+select{
+    background: none;
+    color: white;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+}
+select:focus{
+    outline: none;
+    border: 1px solid #ff5555;
+    border-radius: 20px 20px 0 0 ;
+}
+select option{
+    background: #13141a;
+    color: white;
+    border-top: 0px;
+}
+option:hover{
+    color: white;
+    background: #ff5555;
+}
+.send-button{
+    background: none;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin-top: 2rem;
+    transition: all 0.2s;
+}
+.send-button:hover{
+    background-color: #ff5555;
+    border: #ff5555;
+    transition: all 0.2s;
+}

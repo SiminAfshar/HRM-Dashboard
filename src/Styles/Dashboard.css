@@ -1,0 +1,216 @@
+.dashboard{
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+    flex-direction: column;
+}
+.dashboard-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.dashboard-container-first{
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    flex-direction: row;
+    gap: 20px;
+}
+.dashboard-buttons{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
+    padding: 2rem 1rem;
+    border-radius: 15px;
+    
+
+}
+.dashboard-buttons:first-child{
+    background: rgb(128,37,213);
+    background: linear-gradient(90deg, rgba(155, 126, 182, 0.568) 0%, rgba(45, 152, 253, 0.459) 75%);
+    border: 1px solid #94a0ff;
+}
+.dashboard-buttons:nth-child(2){
+    background: rgb(213,37,37);
+    background: linear-gradient(90deg, rgb(255, 64, 74) 0%, rgba(253,45,77,1) 75%);
+    border: 1px solid #ffffff;
+}
+.dashboard-buttons:nth-child(3){
+    background: rgb(37,213,63);
+    background: linear-gradient(90deg, rgba(37,213,63,1) 0%, rgba(45,253,132,1) 75%);
+    border: 1px solid #ffffff;
+}
+.dashboard-buttons:nth-child(4){
+    background: rgb(213,75,37);
+    background: linear-gradient(90deg, rgba(213,75,37,1) 0%, rgba(253,114,45,1) 75%);
+    border: 1px solid #ffffff;
+
+}
+.dashboard-buttons:hover{
+    
+    border: 1px solid #636363;
+}
+.dashboard-button{
+    width: 100%;
+    
+}
+.button-top, .button-bottom, .button-number, .button-icon{
+    display: flex;
+}
+.button-top{
+    border-bottom: 1px solid rgb(207, 207, 207);
+    margin-bottom: 0.5rem;
+}
+.button-number{
+    width: 65%;
+    flex-direction: column;
+}
+.button-number p:first-child{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.button-icon{
+    width: 35%;
+    height: 100%;
+}
+.button-icon img{
+    width: 100%;
+    height: 100%;
+}
+
+.dashboard-container-second{
+    padding: 1rem;
+    display: flex;
+}
+.dashboard-container-second img{
+    border-radius: 15px;
+}
+
+.dashboard-container-third{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(119, 119, 119);
+    border-radius: 15px;
+    margin: 1rem;
+    padding: 1rem 1.5rem;
+}
+.dashboard-button-task{
+    display: flex;
+    gap: 15px;
+    align-items: flex-end;
+    margin-bottom: 2rem;
+}
+.task-inprogress, .task-done{
+    border:1px solid rgb(122, 122, 122);
+    padding: 0.5rem 1rem 0 1rem;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+.task-inprogress:hover, .task-done:hover{
+    background-color: rgb(255, 62, 62);
+    border-color: rgb(255, 62, 62);
+}
+.task-inprogress::selection, .task-done:active{
+    background-color: rgb(255, 62, 62);
+}
+
+
+
+.dashboard-container-forth{
+    display: flex;
+    padding: 1rem;
+    background-image: url('../Images/bg-1-dark.png');
+    
+}
+.container-forth-right{
+    display: flex;
+    width: 65%;
+}
+.container-messages{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid #a5a5a5;
+    border-radius: 10px;
+}
+.messages{
+    display: flex;
+    padding: 1rem;
+}
+.message{
+    display: flex;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    flex-direction: column;
+    width: 91%;
+    padding: 1rem;
+}
+.message-top{
+    display: flex;
+    justify-content: space-between;
+}
+.message-image{
+    width: 9%;
+    border-radius: 50%;
+    background-color: white;
+    height: 60%;
+    align-self: center;
+    margin-left: 1rem;
+  
+}
+.messages img{
+    width: 100%;
+}
+
+
+.container-forth-left{
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-right: 2rem;
+    justify-content: space-between;
+}
+.shortcut:nth-child(1){
+    width: 45%;
+    background: rgb(128,37,213);
+    background: linear-gradient(90deg, rgba(155, 126, 182, 0.568) 0%, rgba(45, 152, 253, 0.459) 75%);
+    border: 1px solid #94a0ff;
+    border-radius: 15px;
+    cursor:pointer;
+    display: flex;
+    
+}
+.shortcut:nth-child(2){
+    width: 45%;
+    background: rgb(213,37,37);
+    background: linear-gradient(90deg, rgb(255, 64, 74) 0%, rgba(253,45,77,1) 75%);
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    cursor:pointer;
+    display: flex;
+    
+}
+.shortcut:nth-child(3){
+    width: 45%;
+    background: rgb(37,213,63);
+    background: linear-gradient(90deg, rgba(37,213,63,1) 0%, rgba(45,253,132,1) 75%);
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    cursor:pointer;
+    display: flex;
+    
+}
+.shortcut:nth-child(4){
+    width: 45%;
+    background: rgb(213,75,37);
+    background: linear-gradient(90deg, rgba(213,75,37,1) 0%, rgba(253,114,45,1) 75%);
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    cursor:pointer;
+    display: flex;
+    
+}

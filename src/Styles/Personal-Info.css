@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+.personalInfo-container{
+    display: flex;
+}
+.personalInfo-container table{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+.personalInfo-container table tr{
+    display: flex;
+    justify-content: space-between;
+}
+.personalInfo-container table tbody{
+    display: flex;
+    flex-direction: column;
+}
+.personalInfo-container td, th{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+}
+th{
+    margin-bottom: 1rem;
+}
+img{
+    cursor: pointer;
+}
+.personalInfo-container tr:nth-child(even){
+    background-color: #ff5555;
+}
+.pagination-controls i{
+    width: 150px;
+}

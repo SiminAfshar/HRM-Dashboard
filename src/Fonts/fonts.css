@@ -1,0 +1,22 @@
+@font-face {
+    font-family: Iransans_Black;
+    src: url("./IRANSans/IRANSans_Black.ttf");
+}
+@font-face {
+    font-family: Iransans_Bold;
+    src: url("./IRANSans/IRANSans_Bold.ttf");
+}
+@font-face {
+    font-family: Iransans_Light;
+    src: url("./IRANSans/IRANSans_Light.ttf");
+}
+@font-face {
+    font-family: Iransans_Medium;
+    src: url("./IRANSans/IRANSans_Medium.ttf");
+}
+@font-face {
+    font-family: Iransans_UltraLight;
+    src: url("./IRANSans/IRANSans_UltraLight.ttf");
+}
+
+

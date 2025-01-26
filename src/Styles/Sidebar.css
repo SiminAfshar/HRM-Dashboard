@@ -1,0 +1,186 @@
+*{
+    font-size: 14px;
+}
+.sidebar{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 1.5rem 0;
+    color: rgb(209, 209, 209);
+    position: relative;
+}
+.profileDetails{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0.5rem 0;
+    align-items: center;
+    
+}
+.profileDetails .logo, .details{
+    display: flex;
+    width: 50%;
+    cursor: pointer;
+}
+.profileDetails a{
+    display: flex;
+}
+.detailsPopup{
+    position: absolute;
+    right: 32%;
+    top: 12%;
+    background-color: #0d0e12;
+    border: 1px solid rgb(88, 88, 88);
+    color: #fff;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    white-space: nowrap;
+    z-index: 10;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.detailsPopup ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.detailsPopup li {
+    padding: 4px 0;
+    cursor: pointer;
+    display: block;
+    padding: 0.25rem;
+    border-radius: 10px;
+}
+  
+.detailsPopup li:hover {
+    background-color: #3b3b3b;
+    color: rgb(255, 85, 85);
+}
+.sidebarItems{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.sidebarItem{
+    display: flex;
+    flex-direction: column;
+}
+.sidebarContent{
+    display: flex;
+    cursor: pointer;
+    width: 100%;
+    position: relative;
+    padding: 1rem 0.5rem;
+    transition: all 0.5s;
+}
+.sidebarContent:hover{
+    background-color: #1f212a;
+    color: white;
+    transition: all 0.5s;
+}
+.sidebarContent a{
+    margin: 0 1rem;
+    color: rgb(209, 209, 209);
+    list-style-type: none;
+    text-decoration: none;
+}
+.sidebarContent i:first-child {
+    margin-left: 0.5rem;
+}
+.sidebarContent i:last-child{
+    left: 0;
+    position: absolute;
+    margin-left: 1rem;
+}
+.submenu{
+    padding: 0.5rem 3rem;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.submenu span{
+    cursor: pointer;
+    color: rgb(202, 202, 202);
+    transition: all 0.5s;
+}
+.submenu span a{
+    text-decoration: none;
+    color: rgb(202, 202, 202);
+}
+.submenu span:hover{
+    color: white;
+    border-right: 10px solid rgb(255, 85, 85);
+    padding-right: 1rem;
+    transition: all 0.5s;
+}
+
+/* middle */
+
+.ticket{
+    display: flex;
+}
+.ticket span{
+    border-top: 1px solid rgb(88, 88, 88);
+    margin: 0 1rem;
+    display: flex;
+    width: 100%;
+    padding: 1rem 0.5rem;
+}
+.ticket i{
+    margin-left: 0.5rem;
+}
+.ticket a{
+    text-decoration: none;
+    color: rgb(202, 202, 202);
+    transform: translateX(0px);
+    transition: 1s;
+}
+.ticket a:hover{
+    color: white;
+    transform: translateX(-30px);
+    transition: 1s;
+}
+
+/* bottom */
+
+
+.sidebarOut{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    padding: 1rem;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.signOut .notifaction{
+    gap: 0px;
+    display: flex;
+}
+.profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+.profile img{
+    width: 100%;
+}
+.notifaction i{
+    font-size: 20px;
+    padding: 0.25rem 0.75rem;
+    border-radius: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+.notifaction i:hover{
+    color: rgb(255, 85, 85);
+    background-color: rgb(56, 56, 56);
+    font-size: 20px;
+}

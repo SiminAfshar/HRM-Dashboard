@@ -1,0 +1,91 @@
+.leaveRequest-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+}
+.switch-tab{
+    display: flex;
+    margin: auto;
+    width: 95%;
+    padding-top: 1rem;
+}
+.leave-request-buttons-container{
+    display: flex;
+    
+}
+.daily-Morakhasi, .hourly-Morakhasi{
+    display: flex;
+    width: 150px;
+    padding: 0.5rem 1.5rem;
+    background: none;
+    border: 1px solid lightgray;
+    border-bottom: 0px;
+    margin-left: 5px;
+    color: white;
+    border-radius: 10px 10px 0 0;
+
+}
+.daily-Morakhasi:focus,.hourly-Morakhasi:focus{
+    background-color: #ff5555;
+    border: #ff5555;
+}
+.main-tab{
+    display: flex;
+    position: relative;
+    border: 1px solid lightgray;
+    padding: 2rem 1.5rem;
+    border-radius: 10px 0 10px 10px;
+    width: 95%;
+    margin: auto;
+}
+.daily-part-one{
+    display: flex;
+    width: 100%;
+    
+}
+.daily-one , .daily-two{
+    width: 50%;
+    display: flex;
+}
+.daily-one{
+    gap: 10rem;
+}
+.daily-part-one form{
+    display: flex;
+    gap: 1em;
+}
+.morakhasi-duration{
+    width: 100px;
+    background: none;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    color: white;
+    padding:0.3rem 1rem;
+}
+.morakhasi-duration:focus{
+    border: 1px solid red;
+}
+.textarea{
+    background: none;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    width: 100%;
+    color: white;
+    padding: 1rem 1rem 2rem;
+    display: flex;
+}
+.textarea:focus-visible{
+    outline: none;
+    border: 1px solid #ff5555;
+}
+.daily-part-five table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.daily-part-five thead tr{
+    background-color: #ff5555;
+}
+.daily-part-five tbody tr:nth-child(even){
+    background-color: grey;
+}
